@@ -1,0 +1,48 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch RobotContainer",
+      "request": "launch",
+      "mainClass": "frc.robot.RobotContainer",
+      "projectName": "2023-swerve-comp"
+    },
+    {
+      "type": "java",
+      "name": "Launch ConeAlignCommand",
+      "request": "launch",
+      "mainClass": "frc.robot.commands.ConeAlignCommand",
+      "projectName": "2023-swerve-comp"
+    },
+    {
+      "type": "java",
+      "name": "Launch PiecePickerPoseProvider",
+      "request": "launch",
+      "mainClass": "frc.robot.utilities.PiecePickerPoseProvider",
+      "projectName": "2023-swerve-comp"
+    },
+    {
+      "type": "java",
+      "name": "Launch PoseEstimatorSubsystem",
+      "request": "launch",
+      "mainClass": "frc.robot.subsystems.PoseEstimatorSubsystem",
+      "projectName": "2023-swerve-comp"
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib Desktop Debug",
+      "request": "launch",
+      "desktop": true
+    },
+    {
+      "type": "wpilib",
+      "name": "WPILib roboRIO Debug",
+      "request": "launch",
+      "desktop": false
+    }
+  ]
+}
